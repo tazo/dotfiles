@@ -39,7 +39,7 @@ export MPD_HOST=172.22.33.20
 #fi
 
 # enable color support of ls and also add handy aliases
-if [ -x /usr/bin/dircolors ]; then
+if [ -x /usr/bin/dircolors -o -x /bin/dircolors ]; then
     eval "`dircolors -b`"
     alias ls='ls --color=auto'
     #alias dir='dir --color=auto'

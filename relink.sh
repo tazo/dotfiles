@@ -1,11 +1,11 @@
 #!/bin/bash
 
-HIDDIR=hiddenfiles
+HIDDIR=$(pwd)/hiddenfiles
 
 echo "Relinking dotfiles in ~/ "
-for file in $(ls $(pwd)/$HIDDIR/)
+for file in $(ls $HIDDIR/)
 do
     rm -rf ~/.$file
-    ln -s $(pwd)/$HIDDIR/$file ~/.$file
+    ln -s $HIDDIR/$file ~/.$file
 done
 echo "Done."

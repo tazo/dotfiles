@@ -63,4 +63,3 @@ if [ -f /etc/bash_completion ]; then
 fi
 export PYTHONSTARTUP=~/.pystartup
 export PS1='\u\[\e[0;1m\]@\[\e[32;1m\]\h \[\e[0;1m\]\w\[\e[32;1m\]$ \[\e[0m\]'
-~/scripts/wifi-connector.sh

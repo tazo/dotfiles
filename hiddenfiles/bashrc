@@ -27,7 +27,6 @@ shopt -s checkwinsize
 if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
-export MPD_HOST=172.22.33.20
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -52,8 +51,7 @@ fi
 
 # some more ls aliases
 alias ll='ls -lh'
-#alias la='ls -A'
-#alias l='ls -CF'
+alias vi='vim'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile

@@ -5,5 +5,5 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set background=dark
-set tw=80
+set textwidth=80
 syntax on

@@ -1,0 +1,8 @@
+# .bash_profile
+# Add ~/local/ to $PATH
+if [ -d ~/local/bin ]; then
+    export PATH="~/local/bin:$PATH"
+fi
+if [ -d ~/local/scripts ]; then
+    export PATH="~/local/scripts:$PATH"
+fi
